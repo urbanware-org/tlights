@@ -1,10 +1,10 @@
 # tlights
 
 **Table of contents**
-* [Definition](#definition)
-* [Details](#details)
-* [Requirements](#requirements)
-* [Screenshots](#screenshots)
+*   [Definition](#definition)
+*   [Details](#details)
+*   [Requirements](#requirements)
+*   [Screenshots](#screenshots)
 
 ----
 
@@ -21,15 +21,15 @@ The project consists of a class to create an traffic light object in combination
 You can either set the traffic light modes manually or automated.
 
 Manual methods:
-* Set red light only
-* Set yellow light only
-* Set red-yellow combination
-* Set green light
-* Power off
+*   Set red light only
+*   Set yellow light only
+*   Set red-yellow combination
+*   Set green light
+*   Power off
 
 Pre-defined automated methods:
-* Switch the traffic light automatically
-* Set the traffic light to standby
+*   Switch the traffic light automatically
+*   Set the traffic light to standby
 
 The standby mode simply turns off the traffic light and if it is at a yield position, it will flash with its yellow light.
 
@@ -49,4 +49,3 @@ The animated screenshots below are from an earlier version, but are almost ident
 <img src="gif/night.gif" alt="Night" height="400px" width="400px"/>
 
 [Top](#)
-
