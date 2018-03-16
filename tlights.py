@@ -38,12 +38,14 @@ crossing_day = os.path.join(images, "crossing_day.png")
 crossing_night = os.path.join(images, "crossing_night.png")
 sign_yield = os.path.join(images, "sign_yield.png")
 
+
 def set_pixmap(obj, pixmap):
     """
         Method to simply set a pixmap for a QLabel object.
     """
     p = QtGui.QPixmap(pixmap)
     obj.setPixmap(p)
+
 
 class TrafficLight(object):
     """
@@ -160,6 +162,7 @@ class TrafficLight(object):
         else:
             self.switch()
 
+
 class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
     """
         Class for the traffic light control demo.
@@ -247,11 +250,12 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         self.tw.autoswitch(self.standby)
         self.te.autoswitch(self.standby)
 
+
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
     app_icon = QtGui.QIcon()
     app_icon.addFile(
-        os.path.join(images, "trafficlight_green.png"), QtCore.QSize(48,48))
+        os.path.join(images, "trafficlight_green.png"), QtCore.QSize(48, 48))
     app.setWindowIcon(app_icon)
 
     tldemo = TrafficLightsDemo()
@@ -264,4 +268,3 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 
 # EOF
-
