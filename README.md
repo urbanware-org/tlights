@@ -5,6 +5,7 @@
 *   [Details](#details)
 *   [Requirements](#requirements)
 *   [Screenshots](#screenshots)
+*   [Contact](#contact)
 
 ----
 
@@ -12,7 +13,7 @@
 
 This is a simple traffic light control demo which simulates typical traffic light behavior.
 
-[Top](#)
+[Top](#tlights)
 
 ## Details
 
@@ -39,7 +40,7 @@ In order to run the project, the *Python* framework (version 2.6 or higher) must
 
 The graphical user interface is based on *PyQt4*, which must also be installed.
 
-[Top](#)
+[Top](#tlights)
 
 ## Screenshots
 
@@ -48,4 +49,12 @@ The animated screenshots below are from an earlier version, but are almost ident
 <img src="gif/day.gif" alt="Day" height="400px" width="400x" align="left"/>
 <img src="gif/night.gif" alt="Night" height="400px" width="400px"/>
 
-[Top](#)
+[Top](#tlights)
+
+## Contact
+
+Any suggestions, questions, bugs to report or feedback to give?
+
+You can contact me by sending an email to <dev@urbanware.org>.
+
+[Top](#tlights)
