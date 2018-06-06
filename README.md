@@ -46,8 +46,8 @@ The graphical user interface is based on *PyQt4*, which must also be installed.
 
 The animated screenshots below are from an earlier version, but are almost identical with the current one.
 
-<img src="gif/day.gif" alt="Day" height="400px" width="400x" align="left"/>
-<img src="gif/night.gif" alt="Night" height="400px" width="400px"/>
+<img src="https://raw.githubusercontent.com/urbanware-org/tlights/master/gif/day.gif" alt="Day" height="400px" width="400x" align="left"/>
+<img src="https://raw.githubusercontent.com/urbanware-org/tlights/master/gif/night.gif" alt="Night" height="400px" width="400px"/>
 
 [Top](#tlights)
 
