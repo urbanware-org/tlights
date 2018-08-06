@@ -21,6 +21,7 @@
 #     with tlights. If not, see <http://www.gnu.org/licenses/>.
 #
 # GitHub: https://github.com/urbanware-org/tlights
+# GitLab: https://gitlab.com/urbanware-org/tlights
 # ============================================================================
 
 __version__ = "1.1.1"
