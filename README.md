@@ -17,7 +17,7 @@ This is a simple traffic light control demo which simulates typical traffic ligh
 
 ## Details
 
-The project consists of a class to create an traffic light object in combination with a picture box (a *QLabel* used as such to be precise). Additionally there is a timer (default *QTimer*) that automates the switching process.
+The project consists of a class to create a traffic light object in combination with a picture box (a *QLabel* used as such to be precise). Additionally there is a timer (default *QTimer*) that automates the switching process.
 
 You can either set the traffic light modes manually or automated.
 
