@@ -36,9 +36,9 @@ The standby mode simply turns off the traffic light and if it is at a yield posi
 
 ## Requirements
 
-In order to run the project, the *Python* framework (version 2.6 or higher) must be installed on the system.
+In order to run the project, the *Python* 2.x (version 2.6 or higher) or *Python* 3.x framework must be installed on the system.
 
-The graphical user interface is based on *PyQt4*, which must also be installed.
+The graphical user interface is based on *PyQt4*, which must also be installed including the *Python* bindings.
 
 [Top](#tlights)
 
