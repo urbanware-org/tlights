@@ -5,7 +5,7 @@
 # tlights - Traffic Light Control Demo
 # Copyright (C) 2018 by Ralf Kilian
 #
-# tlights is licensed under GPLv3:
+# tlights is licensed under the GPLv3:
 #
 #     tlights is free software: you can redistribute it and/or modify it
 #     under the terms of the GNU General Public License as published by the
