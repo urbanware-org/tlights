@@ -1,11 +1,3 @@
-# License
-
-***tlights*** - Traffic light control demo
-
-Copyright &copy; 2018 by Ralf Kilian
-
-Distributed under the *GNU General Public License* version 3:
-
 ```
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
