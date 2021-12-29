@@ -52,16 +52,8 @@ class TrafficLight(object):
     """
         Traffic light control class.
     """
-    is_red = True
-    is_yield = False
-
-    seconds_red = 3
-    seconds_green = 3
-
-    loop_red = seconds_red
-    loop_green = seconds_green
-
-    standby_signal = 1
+    default_seconds_red = 3
+    default_seconds_green = 3
 
     tl_red = os.path.join(images, "trafficlight_red.png")
     tl_redyellow = os.path.join(images, "trafficlight_redyellow.png")
@@ -69,10 +61,13 @@ class TrafficLight(object):
     tl_green = os.path.join(images, "trafficlight_green.png")
     tl_off = os.path.join(images, "trafficlight_off.png")
 
-    def __init__(self, tl_object, is_red, is_yield, seconds_red,
-                 seconds_green):
+    def __init__(self, tl_object, is_red=True, is_yield=False,
+                 seconds_red=default_seconds_red,
+                 seconds_green=default_seconds_green):
         self.tl_object = tl_object
         self.set_off()
+
+        self.standby_signal = 1
 
         self.is_red = is_red
         self.is_yield = is_yield
@@ -168,6 +163,7 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
     """
         Class for the traffic light control demo.
     """
+
     def __init__(self):
         QtGui.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
