@@ -173,8 +173,8 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         self.standby = False
 
         self.__set_environment()
-        self.btn_power.clicked.connect(self.__switch_power)
-        self.btn_daylight.clicked.connect(self.__switch_daytime)
+        self.btn_power.clicked.connect(self.switch_power)
+        self.btn_daylight.clicked.connect(self.switch_daytime)
 
     def __set_environment(self):
         """
@@ -205,15 +205,6 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         self.btn_power.setText("Power on")
         self.standby = True
 
-    def __switch_power(self):
-        """
-            Switch traffic lights on or to standby.
-        """
-        if self.standby:
-            self.__set_power_on()
-        else:
-            self.__set_power_standby()
-
     def __set_time_day(self):
         """
             Switch to day.
@@ -230,15 +221,6 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         self.is_day = False
         set_pixmap(self.bg_crossing, crossing_night)
 
-    def __switch_daytime(self):
-        """
-            Switch between day and night.
-        """
-        if self.is_day:
-            self.__set_time_night()
-        else:
-            self.__set_time_day()
-
     def main_loop(self):
         """
             Main loop connected with the timer.
@@ -247,6 +229,24 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         self.ts.autoswitch(self.standby)
         self.tw.autoswitch(self.standby)
         self.te.autoswitch(self.standby)
+
+    def switch_daytime(self):
+        """
+            Switch between day and night.
+        """
+        if self.is_day:
+            self.__set_time_night()
+        else:
+            self.__set_time_day()
+
+    def switch_power(self):
+        """
+            Switch traffic lights on or to standby.
+        """
+        if self.standby:
+            self.__set_power_on()
+        else:
+            self.__set_power_standby()
 
 
 if __name__ == "__main__":
