@@ -3,7 +3,7 @@
 
 # ============================================================================
 # tlights - Traffic Light Control Demo
-# Copyright (C) 2018 by Ralf Kilian
+# Copyright (C) 2021 by Ralf Kilian
 #
 # tlights is licensed under the GPLv3:
 #
