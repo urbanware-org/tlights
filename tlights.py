@@ -169,6 +169,9 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
 
+        self.is_day = True
+        self.standby = False
+
         self.__set_environment()
         self.btn_power.clicked.connect(self.__switch_power)
         self.btn_daylight.clicked.connect(self.__switch_daytime)
