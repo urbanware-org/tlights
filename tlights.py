@@ -179,8 +179,8 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
         """
         self.__set_time_day()
 
-        self.tn = TrafficLight(self.tl_north, False, True, 3, 3)
-        self.ts = TrafficLight(self.tl_south, False, True, 3, 3)
+        self.tn = TrafficLight(self.tl_north, False, True, 3, 3)  # is_yield
+        self.ts = TrafficLight(self.tl_south, False, True, 3, 3)  # is_yield
         self.tw = TrafficLight(self.tl_west, True, False, 3, 3)
         self.te = TrafficLight(self.tl_east, True, False, 3, 3)
 
