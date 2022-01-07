@@ -40,14 +40,6 @@ crossing_night = os.path.join(images, "crossing_night.png")
 sign_yield = os.path.join(images, "sign_yield.png")
 
 
-def set_pixmap(obj, pixmap):
-    """
-        Method to simply set a pixmap for a QLabel object.
-    """
-    p = QtGui.QPixmap(pixmap)
-    obj.setPixmap(p)
-
-
 class TrafficLight(object):
     """
         Traffic light control class.
@@ -247,6 +239,14 @@ class TrafficLightsDemo(QtGui.QMainWindow, Ui_MainWindow):
             self.__set_power_on()
         else:
             self.__set_power_standby()
+
+
+def set_pixmap(obj, pixmap):
+    """
+        Method to simply set a pixmap for a QLabel object.
+    """
+    p = QtGui.QPixmap(pixmap)
+    obj.setPixmap(p)
 
 
 if __name__ == "__main__":
