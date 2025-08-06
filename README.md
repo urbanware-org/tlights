@@ -53,8 +53,8 @@ The animated screenshots below are from an earlier version, but are almost ident
 
 ## Contact
 
-Any suggestions, questions, bugs to report or feedback to give?
+Since this project is a simple demo, no new features will be implemented, existing features will not be enhanced and remaining bugs will not be fixed either.
 
-You can contact me by sending an email to [dev@urbanware.org](mailto:dev@urbanware.org) or by opening a *GitHub* issue (which I would prefer if you have a *GitHub* account).
+However, if you have questions about it, you can contact me by sending an email to <dev@urbanware.org>.
 
 [Top](#tlights)
