@@ -53,7 +53,7 @@ The animated screenshots below are from an earlier version, but are almost ident
 
 ## Contact
 
-Since this project is a simple demo, no new features will be implemented, existing features will not be enhanced and remaining bugs will not be fixed either.
+Since this project is a simple demo, no new features will be implemented and existing features will not be enhanced. There is no guarantee that it will work with newer libraries than those used to create it.
 
 However, if you have questions about it, you can contact me by sending an email to <dev@urbanware.org>.
 
